@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografia Krajobrazowa i Przyrodnicza</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #f0a500;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* Pięć kolumn o jednakowych proporcjach */
+            gap: 10px; /* Odstęp między obrazkami */
+        }
+        .gallery img {
+            width: 100%; /* Zajmują całą szerokość kolumny */
+            height: auto; /* Zachowują proporcje */
+            border-radius: 5px; /* Zaokrąglenie narożników */
+        }
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fotografia Krajobrazowa i Przyrodnicza</h1>
+    </header>
+    <nav>
+        <a href="#about">O mnie</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="content" id="about">
+        <h2>O mnie</h2>
+        <p>Witam! Nazywam się Jan Kosmalsi i specjalizuję się w fotografii krajobrazowej i przyrodniczej. Moje zdjęcia starają się uchwycić piękno i magię natury, od rozległych pejzaży po detale przyrody. Zapraszam do mojego świata fotografii!</p>
+        <p>Sprawdź mój profil na Instagramie, aby zobaczyć więcej zdjęć: <a href="https://www.instagram.com/nachu_photo_/" target="_blank">@nachu_photo_</a></p>
+    </div>
+    <div class="content" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="C:\Users\ADMIN\OneDrive\Pulpit\stronka\Jan Kosmalski (@nachu_photo_) • Zdjęcia i filmy na Instagramie_files\353990884_794542498965161_3583799182586863337_n.jpg" alt="Obrazek 1">
+            <img src="C:\Users\ADMIN\OneDrive\Pulpit\stronka\Jan Kosmalski (@nachu_photo_) • Zdjęcia i filmy na Instagramie_files\356074610_1309280363276542_3397753921600829157_n.jpg" alt="Obrazek 2">
+            <img src="C:\Users\ADMIN\OneDrive\Pulpit\stronka\Jan Kosmalski (@nachu_photo_) • Zdjęcia i filmy na Instagramie_files\378851270_985905082693739_7346896944453729029_n.webp" alt="Obrazek 3">
+            <img src="C:\Users\ADMIN\OneDrive\Pulpit\stronka\Jan Kosmalski (@nachu_photo_) • Zdjęcia i filmy na Instagramie_files\343976314_467536922224306_5687577888084963690_n.jpg" alt="Obrazek 4">
+            <img src="C:\Users\ADMIN\OneDrive\Pulpit\stronka\Jan Kosmalski (@nachu_photo_) • Zdjęcia i filmy na Instagramie_files\343154038_268606012172316_514993224588338131_n.jpg" alt="Obrazek 5">
+        </div>
+        <p>Wkrótce dodam moje najlepsze zdjęcia. Zapraszam do regularnego odwiedzania strony!</p>
+    </div>
+    <div class="content" id="contact">
+        <h2>Kontakt</h2>
+        <p> Jeśli chcesz się ze mną skontaktować, napisz na adres email: jankosmalski3@gmail.com lub odwiedź mój profil na Instagramie. </p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jan Kosmalsk. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
